@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <title> Family Member Recognizer </title>
+</head>
+
+<body background="https://wallpapercave.com/wp/wp3182362.jpg">
+    <center>
+        <h1 style="font-size: 50px; color: black; font-family: 'Lobster', cursive; width: 50%; border-radius: 15px; background-color:rgba(255, 255, 255, 0.8); padding: 8px; border: 4px solid black;">
+            Realtime Image Identification </h1>
+        <br> <br> <br>
+        <center>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 objects btn btn-info">
+                Model is trained for
+                <br>
+                <div class="btn btn-success">
+                    Mother | Father
+                </div>
+            </div>
+            <br> <br>
+            <p class="btn btn-warning result-para-tag"> Family Member: 
+                <span class="family-member"></span>
+            </p>
+            <br> <br>
+            <p class="btn btn-warning result-para-tag"> Accuracy: 
+                <span class="member-accuracy"></span>
+            </p>
+        </center>
+    </center>
+    <div class="copyright"> Made By- Ankita Ganguly </div>
+    <br>
+    <script src="main.js"></script>
+</body>
+
+</html>
